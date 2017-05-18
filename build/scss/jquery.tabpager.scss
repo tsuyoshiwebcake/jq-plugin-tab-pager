@@ -1,0 +1,58 @@
+﻿@charset "utf-8";
+
+/* Tab Bar */
+.jquery-tab-pager-tabbar {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	li {
+		float: left;
+		padding: 10px 20px;
+		list-style: none;
+		cursor: pointer;
+		background: #eee;
+		border-radius: 10px 10px 0px 0px;
+		
+		&.current {
+			background: #f90;
+		}
+	}
+}
+
+/* Page Navigation */
+#jquery-tab-pager-navi {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	li {
+		list-style: none;
+		display: inline;
+
+		a {
+			float: left;
+			display: block;
+			padding: 5px;
+			margin-right: 10px;
+			border: 1px solid #ccc;
+			text-decoration: none;
+			background: #fff;
+			transition: background 200ms linear;
+			border-radius: 3px;
+		}
+
+		&:last-child a {
+			margin-right: 0px;
+		}
+	}
+}
+
+#jquery-tab-pager-navi {
+	li a.current,
+	li a.disable,
+	li a:hover {
+		background: #ebebeb;
+		color: #000;
+	}
+}

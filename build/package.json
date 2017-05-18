@@ -1,0 +1,28 @@
+{
+  "name": "jq-plugin-tab-pager",
+  "version": "1.0.0",
+  "description": "jQuery TabPagerはタブの切り替えと、タブ内でのページネーションをAjaxを使わずに実装したjQueryプラグインです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuyoshiwebcake/jq-plugin-tab-pager.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsuyoshiwebcake/jq-plugin-tab-pager/issues"
+  },
+  "homepage": "https://github.com/tsuyoshiwebcake/jq-plugin-tab-pager#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2"
+  }
+}
