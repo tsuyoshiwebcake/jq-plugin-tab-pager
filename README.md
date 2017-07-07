@@ -43,7 +43,7 @@ MIT License
       #jquery-tab-pager-navi {
         margin-bottom: 10px;
       }
-
+      
       /* ここから独自スタイル */
       h1 { font-family: 'Helvetica Neue', Helvetica, sans-serif; }
       #wrapper {
@@ -54,7 +54,7 @@ MIT License
         margin-bottom: 10px;
       }
     </style>
-    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/jquery.tabpager.js"></script>
     <script>
       $(document).ready(function()
@@ -133,8 +133,7 @@ MIT License
       </div>
     </div>
   </body>
-</html>
-```
+</html>```
 
 ## For Developer
 Node.jsおよびGulp.jsをインストールしてください。
