@@ -1,6 +1,6 @@
 {
   "name": "jq-plugin-tab-pager",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "jQuery TabPagerはタブの切り替えと、タブ内でのページネーションをAjaxを使わずに実装したjQueryプラグインです。",
   "main": "index.js",
   "scripts": {
